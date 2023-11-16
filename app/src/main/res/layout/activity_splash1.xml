@@ -153,7 +153,7 @@
         app:srcCompat="@drawable/herbs_brown" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_btn"

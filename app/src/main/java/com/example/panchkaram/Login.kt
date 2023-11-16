@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.content.Intent
+import android.widget.Toast
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,13 +32,13 @@ class Login : AppCompatActivity() {
                 return mobileNumber.length == 10
             }
 
-//            private fun showToast(message: String) {
-//                // Replace this with your preferred way of displaying messages to the user
-//                // It could be a Toast, Snackbar, or any other UI element
-//                // For simplicity, we are using Toast in this example
-//                Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-//            }
-//        }
+            private fun showToast(message: String) {
+                // Replace this with your preferred way of displaying messages to the user
+                // It could be a Toast, Snackbar, or any other UI element
+                // For simplicity, we are using Toast in this example
+                Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+            }
+        }
 
 //    }
-}
+//}
