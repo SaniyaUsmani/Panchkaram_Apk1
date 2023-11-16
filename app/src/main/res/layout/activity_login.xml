@@ -82,6 +82,7 @@
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="phone number"
         android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
