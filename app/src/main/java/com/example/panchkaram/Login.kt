@@ -33,12 +33,8 @@ class Login : AppCompatActivity() {
             }
 
             private fun showToast(message: String) {
-                // Replace this with your preferred way of displaying messages to the user
-                // It could be a Toast, Snackbar, or any other UI element
-                // For simplicity, we are using Toast in this example
+
                 Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
             }
         }
 
-//    }
-//}
