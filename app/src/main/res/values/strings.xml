@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Panchkaram</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="button_description">Select Your Gender</string>
+
+
+</resources>
