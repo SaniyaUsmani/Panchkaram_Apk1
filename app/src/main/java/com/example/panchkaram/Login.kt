@@ -32,9 +32,9 @@ class Login : AppCompatActivity() {
                 return mobileNumber.length == 10
             }
 
-            private fun showToast(message: String) {
+            private fun showToast(welcome: String) {
 
-                Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, welcome, Toast.LENGTH_SHORT).show()
             }
         }
 
